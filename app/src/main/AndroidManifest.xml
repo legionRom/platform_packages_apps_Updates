@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.nitrogen.ota">
+    package="org.legion.ota">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.VIBRATE" />
@@ -56,7 +56,7 @@
         <receiver android:name=".receiver.DownloadReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
-                <action android:name="org.nitrogen.ota.action.START_DOWNLOAD" />
+                <action android:name="org.legion.ota.action.START_DOWNLOAD" />
             </intent-filter>
         </receiver>
 
