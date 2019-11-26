@@ -42,7 +42,7 @@
             android:paddingBottom="8sp"
             android:singleLine="true"
             android:textSize="16sp"
-            tools:text="PixelExperience_device-9.0-20190324-0250-CAF-OFFICIAL.zip" />
+            tools:text="LEGIONOS-v2.3-vince-OFFICIAL-20191126-1425.zip" />
 
         <TextView
             android:id="@+id/build_date"
